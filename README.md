@@ -2,6 +2,12 @@
 Django app which obtains by specified url a number and changes it in response to json words
 
 
+Installation
+------------
+
+``pip install git+https://github.com/jozekbudz/django-num2word.git#egg=django-num2word.git``
+
+
 *urls.py*
 
 ```
