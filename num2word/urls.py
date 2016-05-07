@@ -24,7 +24,7 @@ usage = "Usage: main_url/float_number/lang_code/. Example http://example.com/num
         " http://127.0.0.1:8000/num2words/-37345.66/"
 
 urlpatterns = [
-    url(r'(?P<number>[-.\w]+)/(?P<lang>\w{2})/$',ConvView.as_view(), name='num2words'),
+    url(r'(?P<number>[-.\w]+)/(?P<lang>\w{5})/$',ConvView.as_view(), name='num2words'),
     url(r'(?P<number>[-.\w]+)/$',ConvView.as_view(), name='num2words'),
     url(r'', lambda r: HttpResponse(json.dumps({'error': usage}),  content_type="application/json")),
     # url(r'^admin/', admin.site.urls),

@@ -1,12 +1,8 @@
+import json
 from decimal import Decimal
 from django.http import HttpResponse
-from django.shortcuts import render
-
-# Create your views here.
 from django.views.generic import View
 from num2words import num2words
-
-import json
 
 
 class ConvView(View):
