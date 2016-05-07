@@ -14,7 +14,7 @@ urlpatterns = patterns('',
 
 ```
 http://example.com/num2words/float_number/lang_code/
-http://xample.com/num2words/3231.3454/
+http://example.com/num2words/float_number/
 ```
 
 *example*
